@@ -21,17 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Konstantin D./TestPod'
+  s.homepage         = 'git@github.com:kdev0/TestPod.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Konstantin D.' => 'dev.konst@gmail.com' }
-  s.source           = { :git => 'https://github.com/Konstantin D./TestPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:kdev0/TestPod.git'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'TestPod/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'TestPod' => ['TestPod/Assets/*.png']
   # }
